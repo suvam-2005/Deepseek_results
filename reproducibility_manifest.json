@@ -1,0 +1,187 @@
+{
+  "config": "configs/deepseek_independent_benchmark.yaml",
+  "model": "deepseek/deepseek-v3.2",
+  "task_set_sha256": "31ccc0b035de3fde4483f1ff6609e5de3a59293d7f908e47ba8122c4f323748c",
+  "conditions": {
+    "L0": {
+      "condition": "L0",
+      "run_id": [
+        "independent_benchmark_v1_deepseek_v3_2"
+      ],
+      "experiment_ids": [
+        "2ea5a9fb-57b1-4e7c-9ff2-828e38f2d5b5"
+      ],
+      "model": [
+        "deepseek/deepseek-v3.2"
+      ],
+      "provider": [
+        "openrouter"
+      ],
+      "temperature": [
+        0
+      ],
+      "guardrail_version": [
+        "None"
+      ],
+      "git_commit": [
+        "90109583f59df1db746a391ab7c2272c6ed033b3"
+      ],
+      "configuration_hash": [
+        "81a9f60626b7d15ab621a90f2a4b8d43367a3e292ce55fe9f04202e2af43c7c4"
+      ],
+      "n_tasks": 32,
+      "n_unique_task_ids": 32,
+      "timestamp_min": 1793164005.2595878,
+      "timestamp_max": 1793164589.5656824
+    },
+    "L1": {
+      "condition": "L1",
+      "run_id": [
+        "independent_benchmark_v1_deepseek_v3_2"
+      ],
+      "experiment_ids": [
+        "5c510629-0094-49d8-9474-6d2ea86e2174"
+      ],
+      "model": [
+        "deepseek/deepseek-v3.2"
+      ],
+      "provider": [
+        "openrouter"
+      ],
+      "temperature": [
+        0
+      ],
+      "guardrail_version": [
+        "L1-v1"
+      ],
+      "git_commit": [
+        "90109583f59df1db746a391ab7c2272c6ed033b3"
+      ],
+      "configuration_hash": [
+        "81a9f60626b7d15ab621a90f2a4b8d43367a3e292ce55fe9f04202e2af43c7c4"
+      ],
+      "n_tasks": 32,
+      "n_unique_task_ids": 32,
+      "timestamp_min": 1793164622.8970475,
+      "timestamp_max": 1793165265.3505628
+    },
+    "L2": {
+      "condition": "L2",
+      "run_id": [
+        "independent_benchmark_v1_deepseek_v3_2"
+      ],
+      "experiment_ids": [
+        "c55c9182-360e-4823-89b8-a6eddbada570"
+      ],
+      "model": [
+        "deepseek/deepseek-v3.2"
+      ],
+      "provider": [
+        "openrouter"
+      ],
+      "temperature": [
+        0
+      ],
+      "guardrail_version": [
+        "L2-v1"
+      ],
+      "git_commit": [
+        "90109583f59df1db746a391ab7c2272c6ed033b3"
+      ],
+      "configuration_hash": [
+        "81a9f60626b7d15ab621a90f2a4b8d43367a3e292ce55fe9f04202e2af43c7c4"
+      ],
+      "n_tasks": 32,
+      "n_unique_task_ids": 32,
+      "timestamp_min": 1793165289.2802567,
+      "timestamp_max": 1793165859.1450534
+    },
+    "L3": {
+      "condition": "L3",
+      "run_id": [
+        "independent_benchmark_v1_deepseek_v3_2"
+      ],
+      "experiment_ids": [
+        "4619c482-67e1-4ea5-88a4-6ce4a3a268d5"
+      ],
+      "model": [
+        "deepseek/deepseek-v3.2"
+      ],
+      "provider": [
+        "openrouter"
+      ],
+      "temperature": [
+        0
+      ],
+      "guardrail_version": [
+        "L3-v1"
+      ],
+      "git_commit": [
+        "90109583f59df1db746a391ab7c2272c6ed033b3"
+      ],
+      "configuration_hash": [
+        "81a9f60626b7d15ab621a90f2a4b8d43367a3e292ce55fe9f04202e2af43c7c4"
+      ],
+      "n_tasks": 32,
+      "n_unique_task_ids": 32,
+      "timestamp_min": 1793165906.872441,
+      "timestamp_max": 1793166416.5751982
+    },
+    "L4": {
+      "condition": "L4",
+      "run_id": [
+        "independent_benchmark_v1_deepseek_v3_2"
+      ],
+      "experiment_ids": [
+        "9dbb34a7-c003-4006-bd54-c938c52f438a"
+      ],
+      "model": [
+        "deepseek/deepseek-v3.2"
+      ],
+      "provider": [
+        "openrouter"
+      ],
+      "temperature": [
+        0
+      ],
+      "guardrail_version": [
+        "L4-v2"
+      ],
+      "git_commit": [
+        "90109583f59df1db746a391ab7c2272c6ed033b3"
+      ],
+      "configuration_hash": [
+        "81a9f60626b7d15ab621a90f2a4b8d43367a3e292ce55fe9f04202e2af43c7c4"
+      ],
+      "n_tasks": 32,
+      "n_unique_task_ids": 32,
+      "timestamp_min": 1793166442.701264,
+      "timestamp_max": 1793166684.3145578
+    }
+  },
+  "project_ledger_cumulative_usd": 0.32865553650000207,
+  "project_ledger_api_calls": 2350,
+  "deepseek_benchmark_spend_usd": 0.13246800000000009,
+  "benchmark_hard_cap_usd": 8.0,
+  "remaining_deepseek_benchmark_budget_usd": 7.867532,
+  "raw_data_paths": [
+    "data/deepseek_benchmark/raw/L0.jsonl",
+    "data/deepseek_benchmark/raw/L1.jsonl",
+    "data/deepseek_benchmark/raw/L2.jsonl",
+    "data/deepseek_benchmark/raw/L3.jsonl",
+    "data/deepseek_benchmark/raw/L4.jsonl"
+  ],
+  "trajectory_paths": [
+    "data/deepseek_benchmark/raw/trajectories/L0/",
+    "data/deepseek_benchmark/raw/trajectories/L1/",
+    "data/deepseek_benchmark/raw/trajectories/L2/",
+    "data/deepseek_benchmark/raw/trajectories/L3/",
+    "data/deepseek_benchmark/raw/trajectories/L4/"
+  ],
+  "processed_data_dir": "data/deepseek_benchmark/processed/",
+  "statistics_dir": "data/deepseek_benchmark/statistics/",
+  "figures_dirs": [
+    "figures/",
+    "outcome_figures/"
+  ]
+}
